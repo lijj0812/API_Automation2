@@ -17,8 +17,3 @@
  2、apiMethod.py：封装request方法，可以支持多协议扩展（get\post\put\delete）\
  3、checkResult.py：封装验证response方法\
  4、setupMain.py： 核心代码，定义并执行用例集，生成报告
-
-----
-
-详细介绍见原文: https://www.jianshu.com/p/6f5bfc1182ae
-
