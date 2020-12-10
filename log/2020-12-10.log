@@ -1,0 +1,44 @@
+2020-12-10 18:13:26,245 - writeCaseYml.py - DEBUG: 从D:/pycharmpro/API_Automation2/content/data/目录下，读取文件cbs-7181.chlsj
+2020-12-10 18:13:26,529 - writeCaseYml.py - ERROR: 未找到parameter: argument of type 'NoneType' is not iterable
+2020-12-10 18:28:03,356 - writeCaseYml.py - DEBUG: 从D:/pycharmpro/API_Automation2/content/data/目录下，读取文件registerFromThirdPart.chlsj
+2020-12-10 18:28:03,358 - mkDir.py - DEBUG: logs目录已存在：D:/pycharmpro/API_Automation2/content/page/api
+2020-12-10 18:28:04,760 - apiSend.py - INFO: ====================================================================================================
+2020-12-10 18:28:04,760 - apiSend.py - DEBUG: 请求头处理结果：{'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}
+2020-12-10 18:28:04,765 - apiSend.py - DEBUG: 请求参数处理结果：{'deviceInfoList': ['019F9E50-9561-4FFB-87F9-5FDD8A579B67', '3145728000', '414', '736'], 'loginOptions': 'device_login', 'deviceId': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'timeZone': 'Asia/Shanghai'}
+2020-12-10 18:28:04,766 - apiSend.py - DEBUG: host处理结果： service.papaya.fm
+2020-12-10 18:28:04,766 - apiSend.py - INFO: 请求接口：registerFromThirdPart
+2020-12-10 18:28:04,766 - apiSend.py - INFO: 请求地址：https://service.papaya.fm/api/registerFromThirdPart
+2020-12-10 18:28:04,766 - apiSend.py - INFO: 请求头: {'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}
+2020-12-10 18:28:04,766 - apiSend.py - INFO: 请求参数: {'deviceInfoList': ['019F9E50-9561-4FFB-87F9-5FDD8A579B67', '3145728000', '414', '736'], 'loginOptions': 'device_login', 'deviceId': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'timeZone': 'Asia/Shanghai'}
+2020-12-10 18:28:04,766 - apiSend.py - INFO: 请求方法: POST
+2020-12-10 18:28:04,783 - connectionpool.py - DEBUG: Starting new HTTPS connection (1): service.papaya.fm:443
+2020-12-10 18:28:08,901 - apiSend.py - INFO: ====================================================================================================
+2020-12-10 18:28:08,901 - apiSend.py - DEBUG: 请求头处理结果：{'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}
+2020-12-10 18:28:08,902 - apiSend.py - DEBUG: 请求参数处理结果：{'deviceInfoList': ['019F9E50-9561-4FFB-87F9-5FDD8A579B67', '3145728000', '414', '736'], 'loginOptions': 'device_login', 'deviceId': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'timeZone': 'Asia/Shanghai'}
+2020-12-10 18:28:08,903 - apiSend.py - DEBUG: host处理结果： service.papaya.fm
+2020-12-10 18:28:08,903 - apiSend.py - INFO: 请求接口：registerFromThirdPart
+2020-12-10 18:28:08,903 - apiSend.py - INFO: 请求地址：https://service.papaya.fm/api/registerFromThirdPart
+2020-12-10 18:28:08,903 - apiSend.py - INFO: 请求头: {'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}
+2020-12-10 18:28:08,903 - apiSend.py - INFO: 请求参数: {'deviceInfoList': ['019F9E50-9561-4FFB-87F9-5FDD8A579B67', '3145728000', '414', '736'], 'loginOptions': 'device_login', 'deviceId': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'timeZone': 'Asia/Shanghai'}
+2020-12-10 18:28:08,903 - apiSend.py - INFO: 请求方法: POST
+2020-12-10 18:28:08,915 - connectionpool.py - DEBUG: Starting new HTTPS connection (1): service.papaya.fm:443
+2020-12-10 18:28:12,359 - apiSend.py - INFO: ====================================================================================================
+2020-12-10 18:28:12,359 - apiSend.py - DEBUG: 请求头处理结果：{'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}
+2020-12-10 18:28:12,360 - apiSend.py - DEBUG: 请求参数处理结果：{'deviceInfoList': ['019F9E50-9561-4FFB-87F9-5FDD8A579B67', '3145728000', '414', '736'], 'loginOptions': 'device_login', 'deviceId': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'timeZone': 'Asia/Shanghai'}
+2020-12-10 18:28:12,361 - apiSend.py - DEBUG: host处理结果： service.papaya.fm
+2020-12-10 18:28:12,361 - apiSend.py - INFO: 请求接口：registerFromThirdPart
+2020-12-10 18:28:12,361 - apiSend.py - INFO: 请求地址：https://service.papaya.fm/api/registerFromThirdPart
+2020-12-10 18:28:12,361 - apiSend.py - INFO: 请求头: {'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}
+2020-12-10 18:28:12,361 - apiSend.py - INFO: 请求参数: {'deviceInfoList': ['019F9E50-9561-4FFB-87F9-5FDD8A579B67', '3145728000', '414', '736'], 'loginOptions': 'device_login', 'deviceId': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'timeZone': 'Asia/Shanghai'}
+2020-12-10 18:28:12,361 - apiSend.py - INFO: 请求方法: POST
+2020-12-10 18:28:12,373 - connectionpool.py - DEBUG: Starting new HTTPS connection (1): service.papaya.fm:443
+2020-12-10 18:28:15,566 - apiSend.py - INFO: ====================================================================================================
+2020-12-10 18:28:15,566 - apiSend.py - DEBUG: 请求头处理结果：{'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}
+2020-12-10 18:28:15,567 - apiSend.py - DEBUG: 请求参数处理结果：{'deviceInfoList': ['019F9E50-9561-4FFB-87F9-5FDD8A579B67', '3145728000', '414', '736'], 'loginOptions': 'device_login', 'deviceId': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'timeZone': 'Asia/Shanghai'}
+2020-12-10 18:28:15,567 - apiSend.py - DEBUG: host处理结果： service.papaya.fm
+2020-12-10 18:28:15,568 - apiSend.py - INFO: 请求接口：registerFromThirdPart
+2020-12-10 18:28:15,568 - apiSend.py - INFO: 请求地址：https://service.papaya.fm/api/registerFromThirdPart
+2020-12-10 18:28:15,568 - apiSend.py - INFO: 请求头: {'user-agent': 'PapayaFM/1802 CFNetwork/1121.2.2 Darwin/19.3.0', 'deviceid': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'appversion': '3.4.0'}
+2020-12-10 18:28:15,568 - apiSend.py - INFO: 请求参数: {'deviceInfoList': ['019F9E50-9561-4FFB-87F9-5FDD8A579B67', '3145728000', '414', '736'], 'loginOptions': 'device_login', 'deviceId': 'bf38b545-b766-8c2a-8ec7-e80ccf22a3b4', 'timeZone': 'Asia/Shanghai'}
+2020-12-10 18:28:15,568 - apiSend.py - INFO: 请求方法: POST
+2020-12-10 18:28:15,581 - connectionpool.py - DEBUG: Starting new HTTPS connection (1): service.papaya.fm:443

@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*- 
+# @Time    : 2020/12/10 17:03
+# @Author  : Gavin
+
+import os
+import logging
+
+
+def mk_dir(path):
+    # 去除首位空格
+    path = path.strip()
+    path = path.rstrip("\\")
+    path = path.rstrip("/")
+
+    # 判断路径是否存在
+    is_exists = os.path.exists(path)
+
+    if not is_exists:
+        try:
+            os.makedirs(path)
+        except Exception as e:
+            logging.error("logs目录创建失败：%s" % e)
+    else:
+        # 如果目录存在则不创建，并提示目录已存在
+        logging.debug("logs目录已存在：%s" % str(path))
+        pass
