@@ -27,12 +27,13 @@ def write_case_yml(har_path):
         if 'chlsj' in i:
             with open(har_path+'/'+str(i), 'r', encoding='utf-8') as f:
                 logging.debug("从%s目录下，读取文件%s" % (har_path, i))
-
+                print("从%s目录下，读取文件%s" % (har_path, i))
                 har_cts = json.loads(f.read())
                 har_ct = har_cts[0]
                 case_list = dict()
                 scheme = har_ct["scheme"]
                 method = har_ct["method"]
+                print(method)
                 path = har_ct["path"]
                 title = path.split("/")[-1]
                 info_id = "test_" + title + "_01"
@@ -47,6 +48,7 @@ def write_case_yml(har_path):
                         parameter_list = urllib.parse.unquote(har_ct["request"]["body"]["text"])
                     else:
                         parameter_list = har_ct["query"]
+                    print(parameter_list)
 
                     if "&" in parameter_list:
 

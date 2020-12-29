@@ -6,7 +6,6 @@
 
 import os
 
-
 import pytest
 from bin.config.confManage import dir_manage
 from bin.script.logs import LogConfig

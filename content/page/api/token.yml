@@ -1,0 +1,27 @@
+test_info:
+  id: test_token_01
+  title: ''
+  host: ${host}$
+  address: /token
+premise:
+test_case:
+- test_name: token
+  info: token
+  http_type: https
+  request_type: POST
+  parameter_type: application/x-www-form-urlencoded
+  address: /token
+  headers:
+    X-Requested-With: XMLHttpRequest
+  cookies: true
+  timeout: 20
+  parameter:
+    grant_type: xrm
+    username: CRM\Administrator
+    password: dVR7hEwj7BK+MrBhETwnDlEB67/7Yv39ALcCEcyrW1KwpnzuXJSeVTQzI2AGXZ1RnyzTcCRhUAS/FtFjaHDKscKYVIO7zyOR4Ddq1SKzfZbd2xyjal8A3UnP7WOzGEt8Zb6zYKUfn1qXR1dY+E9uCK8tyHcpW+5eLOfGtjprEM/tkpIaGArEOjrtkqpjNsAK07ApwJR2Td0aRer6H1TiKabET9ua10rnEEqcEKYuaU4/codUE4YgKhEwWBlcQwusaW3Qn9R9+lUPbkO6CSvqC2wHpKEeNXNYVSZbX5KpNFN3mjuvfagCgDXBx+DqbyIvEDcxYO1VLDfIheVWv5vhjA
+  file: false
+  check:
+    check_type: json
+    expected_code: 200
+    expected_request: result_token.json
+  relevance:

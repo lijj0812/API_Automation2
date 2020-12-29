@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*- 
-# @Time    : 2020/12/10 17:50
+# @Time    : 2020/12/10 17:47
 # @Author  : Gavin
 
 
@@ -14,16 +14,16 @@ from bin.unit.apiSendCheck import api_send_check
 
 PATH = project_path + dir_manage('${page_dir}$') + "api"
 
-case_dict = ini_case(PATH, "registerFromThirdPart")
+case_dict = ini_case(PATH, "login1")
 
 
 @allure.feature(case_dict["test_info"]["title"])
-class TestRegisterfromthirdpart:
+class login1:
 
     @pytest.mark.parametrize("case_data", case_dict["test_case"], ids=[])
-    @allure.story("registerFromThirdPart")
+    @allure.story("login1")
     @pytest.mark.flaky(reruns=3, reruns_delay=3)
-    def test_registerfromthirdpart(self, case_data):
+    def test_login1(self, case_data):
         """
 
         :param case_data: 测试用例
@@ -32,3 +32,4 @@ class TestRegisterfromthirdpart:
         self.init_relevance = ini_request(case_dict, PATH)
         # 发送测试请求
         api_send_check(case_data, case_dict, self.init_relevance, PATH)
+

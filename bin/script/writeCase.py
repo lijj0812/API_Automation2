@@ -61,5 +61,5 @@ def write_case(_path):
 
 
 if __name__ == '__main__':
-    ym_path = 'D:/API_Automation2/API_service/content/data'
+    ym_path = 'D:/pycharmpro/API_Automation2/content/data'
     write_case(ym_path)
