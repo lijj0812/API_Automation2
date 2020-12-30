@@ -65,5 +65,3 @@ if __name__ == '__main__':
     host = host_manage(hos='${pre}$')
     dirs = dir_manage(directory='${case_dir}$')
 
-    print(host)
-    print(dirs)

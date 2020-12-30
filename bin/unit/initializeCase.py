@@ -6,7 +6,6 @@
 
 import yaml
 
-
 def ini_case(_path, case_file):
     """
     case初始化.yml测试用例

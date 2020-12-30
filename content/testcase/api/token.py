@@ -14,16 +14,16 @@ from bin.unit.apiSendCheck import api_send_check
 
 PATH = project_path + dir_manage('${page_dir}$') + "api"
 
-case_dict = ini_case(PATH, "login1")
+case_dict = ini_case(PATH, "token")
 
 
 @allure.feature(case_dict["test_info"]["title"])
-class login1:
+class token:
 
     @pytest.mark.parametrize("case_data", case_dict["test_case"], ids=[])
-    @allure.story("login1")
+    @allure.story("token")
     @pytest.mark.flaky(reruns=3, reruns_delay=3)
-    def test_login1(self, case_data):
+    def test_token(self, case_data):
         """
 
         :param case_data: 测试用例
